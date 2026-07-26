@@ -1,6 +1,6 @@
 [tool.briefcase]
-project_name = "AI Assistant"
-bundle = "org.mychatbot"
+project_name = "AI Assistant Toga"
+bundle = "org.mychatbottoga"
 version = "1.0.0"
 url = "https://example.com"
 license.file = "LICENSE"
@@ -8,7 +8,7 @@ author = "Developer"
 author_email = "dev@example.com"
 
 [tool.briefcase.app.aiassistant]
-formal_name = "دستیار هوشمند"
+formal_name = "دستیار هوشمند (Toga)"
 description = "چت‌بات هوش مصنوعی فارسی"
 long_description = "چت‌بات هوش مصنوعی فارسی با پشتیبانی کامل از راست‌به‌چپ"
 sources = ["src/aiassistant"]
