@@ -153,5 +153,6 @@ class ChatbotApp(toga.App):
         self.loop.call_soon_threadsafe(update_ui)
 
 
+
 def main():
-    return ChatbotApp(formal_name="دستیار هوشمند", app_id="org.mychatbot.aiassistant")
+    return ChatbotApp(formal_name="دستیار هوشمند (Toga)", app_id="org.mychatbottoga.aiassistant")
