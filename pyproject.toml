@@ -17,5 +17,7 @@ requires = [
 ]
 
 [tool.briefcase.app.aiassistant.android]
-requires = []
+requires = [
+    "toga-android",
+]
 permission.INTERNET = true
