@@ -19,5 +19,3 @@ requires = [
 [tool.briefcase.app.aiassistant.android]
 requires = []
 permission.INTERNET = true
-min_os_version = "24"
-target_os_version = "34"
